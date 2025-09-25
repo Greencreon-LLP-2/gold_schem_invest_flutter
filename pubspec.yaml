@@ -1,0 +1,62 @@
+name: rajakumari_scheme
+description: "The User Side of rajakumari gold store application"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 5.1.4+19
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  cupertino_icons: ^1.0.8
+  feather_icons: ^1.2.0
+  fluttertoast: ^8.2.12
+  http: ^1.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.20.2
+  provider: ^6.1.2
+  url_launcher: ^6.3.1
+  image_picker: ^1.1.2
+  onesignal_flutter: ^5.3.4
+  crypto: ^3.0.6
+  phonepe_payment_sdk: ^2.0.3
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  dio: ^5.8.0+1
+  flutter_phoenix: ^1.1.1
+  flutter_html: ^3.0.0
+  flutter_hooks: ^0.21.2
+  flutter_svg: ^2.1.0
+  icons_launcher: ^3.0.1
+  google_fonts: ^6.1.0
+  package_info_plus: ^8.3.0
+  in_app_update: ^4.2.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.8
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+icons_launcher:
+  image_path: "assets/images/logo_gold.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
